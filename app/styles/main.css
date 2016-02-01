@@ -1,0 +1,143 @@
+
+
+body {
+  padding: 0; background-color: #404040;
+}
+
+/* Barra de navegación*/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #404040;
+}
+
+/*Color barra de navegación*/
+.color-nav{
+  background-color: #404040; 
+
+}
+
+.paddingnav{
+  padding-top: 15px;
+
+}
+
+
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #9d9d9d;
+    background-color: #404040;
+}
+
+a.dropdown-toggle:hover {
+  color: #fff;
+}
+
+
+.dropdown-menu > li > a {
+   color: #9d9d9d ;
+    text-decoration: none;
+    background-color: #404040;
+
+}
+
+.dropdown-menu > li > a:hover {
+   color: #fff;
+    text-decoration: none;
+    background-color: #404040;
+
+}
+.dropdown-menu > li > a:focus {
+    color: #9d9d9d;
+    text-decoration: none;
+    background-color: #404040;
+}  
+
+/*Color letra navegación*/
+.navbar-inverse .navbar-nav > li > a {
+    color: #ddd;
+}
+
+
+/* Start: Inicio.html*/
+
+.fila3{
+  height: 250px;
+  width: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.margen{
+  margin-top: 0px; 
+  margin-left: 20px;
+  }
+
+.margencarrusel, .margenfotografia {
+  margin-top: 10px;   
+}
+
+
+/*End:; inicio.html*/
+
+.rotacion:hover{
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    margin-top: 2px;
+}
+
+
+hr{
+    border: 1px solid #EDED9E;
+    margin: 0.9px;
+    padding:0;
+  }
+
+h3{
+  font-size: 14px;
+  text-align: center;
+}
+ 
+
+p{
+  line-height: 0.9;
+  
+}
+
+
+.letrablanca{
+  color: #fff;
+  font-size: 12px;
+  font-family: helvetica, arial, "helvetica neue" tahoma, arial, verdana;
+  font-weight: 100;
+}
+
+
+
+/* Start:Footer*/
+
+.colorfooter{
+  background-color: #404040;
+}
+
+.ftr{
+    height: 100px;
+    background-color: #404040;
+
+
+  }
+
+.fila4{
+  height: 300px;
+} 
+
+.marginfooter{
+  margin-top: 10px;
+}
+
+.coloricono{
+  color: white;
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body ng-app="decoravidreApp">
+    <!--[if lte IE 8]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+<!--Barra de navegación:Inicio-->
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid color-nav">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+     </button>
+      <a class="navbar-brand" href="#/inicio"><img src="images/decoravidre.jpg" width="70" alt=""></a>
+    </div>
+    <ul class="nav navbar-nav"> 
+      <li><a href="#/inicio">Inicio</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle color-nav" data-toggle="dropdown" href="">Productos
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu color-nav">
+          <li><a href="#/baños">Baños</a></li>
+          <li><a href="#/cocinas">Cocinas</a></li>
+          <li><a href="#/mamparas">Mamparas</a></li> 
+        </ul>
+      </li>
+      <li><a href="#">Contacto</a></li> 
+      <li><a href="#/mapa">Mapa</a></li> 
+    </ul>
+
+  </div>
+  <hr>
+</nav>
+  <!-- Barra de navegación:Final-->
+
+
+    
+    <div ng-view=""></div>
+    
+
+<!--Footer:Inicio-->
+<div class="container colorfooter">
+<hr>
+  <div class="row">
+    <div class="col-xs-4">
+      <address>
+      <br>
+            <p class="letrablanca">Dercorvidre</p>
+            <span class="glyphicon glyphicon-home coloricono" aria-hidden="true" ></span><span class="letrablanca">  Camino de Aldaya, 4  46940  Manises  -  Valencia</span><br>
+            <span class="glyphicon glyphicon-envelope coloricono" aria-hidden="true"></span><a href="mailto:Tame@formación.com"><span class="letrablanca">   jagr.gmail.com</span></a><br>
+            <span class="glyphicon glyphicon-phone-alt coloricono" aria-hidden="true"></span><a href="tel:696199999"> <span class="letrablanca">  696135894</span></a><br>
+
+          </address>
+    </div>
+    <div class="col-xs-4 text-center">
+    <br>
+        <img src="/images/decoravidre.jpg" width="100" alt="" class="image-responsive">
+    </div>
+    <div class="col-xs-4">
+    <br>
+        <blockquote class="letrablanca">
+          <p>Lorem ipsum dolor sit amet, consectetur</p>
+          </blockquote>
+          <p class="letrablanca">&copy; Mi <b>copyright</b>  2016</p>
+    </div> 
+  </div>
+</div>
+<!--Footer:Fin-->
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       !function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
+       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
+       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
+       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/inicio.js"></script>
+        <script src="scripts/controllers/productos.js"></script>
+        <script src="scripts/controllers/contacto.js"></script>
+        <script src="scripts/controllers/baños.js"></script>
+        <script src="scripts/controllers/cocinas.js"></script>
+        <script src="scripts/controllers/mamparas.js"></script>
+        <script src="scripts/controllers/mapa.js"></script>
+        
+        
+        <!-- endbuild -->
+</body>
+</html>
